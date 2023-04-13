@@ -1,0 +1,6 @@
+cd TO_YOUR_STORM_DIRECTORY (Storm_Group2)
+
+mvn clean 
+mvn package 
+storm jar target/Group2_Storm-jar-with-dependencies.jar com.group2.storm.Topology_Group2 
+ 
